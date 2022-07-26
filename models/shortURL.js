@@ -15,7 +15,7 @@ shortURL.init(
       allowNull: false,
     },
     redirect: {
-      type: DataTypes.STRING(50),
+      type: DataTypes.STRING(1500),
       allowNull: false,
       validate: {
         isUrl: true,
