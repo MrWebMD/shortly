@@ -1,4 +1,4 @@
-# Embedly
+# Shortly
 
 Shortly is a derivative of one of my own projects called Embedly. Shortly is a url shortener, you can give it any web url and it will create a short sharable one for you. [Visit live Shortley website](http://shortly.mrwebmd.com), or perform this easy set up.
 
