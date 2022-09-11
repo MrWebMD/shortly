@@ -52,6 +52,8 @@ app.get("/:shortKey", async (req, res) => {
 
 app.use(express.static("public"));
 
-app.listen(process.env.PORT);
+const port = process.env.PORT || 80;
 
-console.log("Running on localhost:", process.env.PORT);
+app.listen(port);
+
+console.log("Running on localhost:", port);
